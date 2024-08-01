@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod1
+  name: my-nginx-pod1
   labels:
     app: nginx
 spec:
   containers:
   - name: nginx
-    image: nginx1-cicd-practice:latest
+    image: hanyohan/nginx1-cicd-practice:latest
     ports:
     - containerPort: 80
