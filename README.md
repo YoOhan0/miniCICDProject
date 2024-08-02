@@ -7,8 +7,8 @@ my-app/<br>
 ├── Dockerfile<br>
 ├── k8s/<br>
 │   ├── pod1.yaml<br>
-│   └──
-
+│   <br>
+|── index.html
 <hr>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08be8c2f-c72e-440e-aab7-45b1c730797f"/>
