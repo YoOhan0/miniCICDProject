@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: hanyohan/nginx1-cicd-practice:15
+    image: hanyohan/nginx1-cicd-practice:16
     ports:
     - containerPort: 80
