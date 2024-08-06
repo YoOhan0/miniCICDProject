@@ -1,5 +1,5 @@
 <h1>miniCICDProject</h1>
-Jenkins와 ArgoCD를 사용하여 CI/CD 파이프라인을 구축하고 자동으로 간단한 애플리케이션을 배포 해 보았다. 코드를 커밋 하면 Jenkins가 자동으로 빌드, DockerHub에 이미지 배포를 수행하고, ArgoCD가 Kubernetes 클러스터에 애플리케이션을 배포 합니다. 동시에 빌드 혹은 배포 과정에 문제가 생겼을 시 Discord로 알림을 받아보는 기능까지 구현해 보았다.
+Jenkins와 ArgoCD를 사용하여 CI/CD 파이프라인을 구축하고 자동으로 간단한 애플리케이션을 배포 해 보았다. 코드를 커밋 하면 Jenkins가 자동으로 빌드, DockerHub에 이미지 배포를 수행,이어서 ArgoCD가 Kubernetes 클러스터에 애플리케이션을 배포 했고, 동시에 빌드 혹은 배포 과정에 문제가 생겼을 시 Discord로 알림을 받아보는 기능까지 구현해 보았다.
 <hr>
 <h3>디렉토리 구조</h3>
 
